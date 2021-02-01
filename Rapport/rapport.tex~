@@ -1,0 +1,99 @@
+\documentclass[french]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{sectsty}
+\usepackage{authblk}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{xspace}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords:}} #1}
+\bibliographystyle{apalike}
+
+\usepackage{hyperref}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+
+\textsc{{\LARGE Institut national des sciences appliquées de Rouen} \\ \vspace{6
+    mm} {\Large INSA de Rouen}} \\
+\vspace{5mm}
+\includegraphics[width=0.4\textwidth]{./insa}\\[1cm]
+[1.0cm]
+\textsc{\Large STPI 2, M8}\\[0.5cm]
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries Étude statistique de quelque chose et autre chose aussi}\\[0.4cm]
+
+\HRule \\[1.5cm]
+
+% Author and supervisor
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Auteurs:}\\
+Prénom1 \textsc{Nom1} \\
+{\small\href{mailto:prenom1.nom1@insa-rouen.fr}{prenom1.nom1@insa-rouen.fr}}
+\\
+Prénom2 \textsc{Nom2} \\
+{\small\href{mailto:prenom2.nom2@insa-rouen.fr}{prenom2.nom2@insa-rouen.fr}}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Enseignant:} \\
+Stéphane \textsc{Canu} \\
+{\small\href{mailto:stephane.canu@insa-rouen.fr}{stephane.canu@insa-rouen.fr}}
+\end{flushright}
+\end{minipage}
+
+\vfill
+{\large 11 Avril 2016}
+\end{center}
+\end{titlepage} 
+\begin{abstract}
+*Mettez ici le résumé de ce travail* Nous présentons dans ce rapport l'analyse
+en composantes principales des données de quelque chose \dots.
+\\
+\keywords{*Mettez ici les mots clés relatifs à ce travail:* ACP, statistiques,
+  probabilités}
+\end{abstract}
+\tableofcontents
+
+\chapter{Présentation des données}
+\section{Données}
+Nous décrivant dans cette section les données de \dots
+
+\chapter{Méthodologie}
+Nous présentons dans ce chapitre notre méthodologie d'analyse statistique dans
+laquelle \dots
+
+Dans \cite{stat1}, la méthodologie \dots
+
+Dans \cite{peter93}, \dots
+
+Selon \cite{canu1}, l'ACP est une \dots, pour cela nous procédons par
+normaliser les données en premier lieu ce qui permet de \dots 
+\section{Analyse}
+\section{Résultats}
+
+\chapter{Conclusion et perspectives}
+*Résumez ce que vous avez fait, présentez les résultats obtenus, donnez votre
+conclusion et vos perspectives pour de future travaux \dots *
+
+% Dans le fichier bibliohraphie.bib, vous mettez vos références, par exemple les
+% noms des livres, article, siteweb, cours ... que vous avez utilisé pour faire
+% ce travail.
+\addcontentsline{toc}{chapter}{References} \bibliography{bibliographie}
+
+\end{document}
